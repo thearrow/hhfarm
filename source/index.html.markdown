@@ -2,6 +2,3 @@
 title: Harvest House Farm - Bozeman, MT
 ---
 
-<div>
-  <p><%= data.index.intro %></p>
-</div>

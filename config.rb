@@ -48,6 +48,7 @@ helpers do
   end
 end
 
+set :markdown_engine, :redcarpet
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
