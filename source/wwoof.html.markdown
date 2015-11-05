@@ -4,6 +4,7 @@ published: true
 ---
 
 
+
 ###Being a WWOOFer
 
 WWOOFers welcome! We accept, encourage and enjoy WWOOFers from all regions and backgrounds to join us in our Community Supported Agriculture Project and be a part of the unique culture of wild west Montana. WWOOFing Season typically begins in early June and Continues until early September, though off-season applicants may also be considered. 
@@ -14,7 +15,7 @@ WWOOFers welcome! We accept, encourage and enjoy WWOOFers from all regions and b
 
 **Accommodation/Housing:** We offer a variety of accommodation setups ranging from the rustic to the comfy-cozy:
 
-![Cabin]({{site.baseurl}}/source/images/cabin.JPG)
+![Cabin](/images/cabin.JPG)
 
 **Food Meals:** WWOOFers are generally provided an open kitchen in the main home, and ingredients to cook for themselves as they please. In addition, some meals (usually dinner) are cooked by your host. Special diets and preferences can be accomodated and respected. Meals can be taken alone or with the family as preferred
 
