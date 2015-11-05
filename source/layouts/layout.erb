@@ -6,22 +6,27 @@
 
     <title><%= current_page.data.title || "Harvest House Farm" %></title>
 
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Arvo|Source+Sans+Pro" %>
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body>
+    <header>
+      <h1 class="header">Harvest House Farm</h1>
+    </header>
+    <div class="navbar">
+      <%= nav_link 'Home', '/' %>
+      <%= nav_link 'Join', '/join' %>
+      <%= nav_link 'About', '/about' %>
+      <%= nav_link 'WWOOF', '/wwoof' %>
+      <%= nav_link 'FAQ', '/faq' %>
+      <%= nav_link 'Photos', '/photos' %>
+    </div>
 
-  <div class="navbar">
-    <%= nav_link 'Home', '/' %>
-    <%= nav_link 'Join', '/join' %>
-    <%= nav_link 'WWOOF', '/wwoof' %>
-    <%= nav_link 'FAQ', '/faq' %>
-    <%= nav_link 'Photos', '/photos' %>
-    <%= nav_link 'About', '/about' %>
-  </div>
-
-    <%= yield %>
+    <div class="content">
+      <%= yield %>
+    </div>
 
   </body>
 </html>
