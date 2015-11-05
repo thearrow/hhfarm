@@ -39,7 +39,9 @@ end
 # Methods defined in the helpers block are available in templates
 helpers do
   def nav_link name, url
-    class_name = request.path == url ? ' class="active"' : ''
+    current_path = request.path.chomp '/index.html'
+    class_name = current_path == url ? ' class="active"' : ''
+    if current_path == 'index.html' and url == '/' then class_name = ' class="active"' end
     "<li#{class_name}><a href=\"#{url}\">#{name}</a></li>"
   end
 end
@@ -47,13 +49,14 @@ end
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+activate :directory_indexes
 
 # Build-specific configuration
 configure :build do
   activate :minify_css
+  activate :relative_assets
   # activate :minify_javascript
   # activate :asset_hash
-  # activate :relative_assets
   # set :http_prefix, "/Content/images/"
 end
 

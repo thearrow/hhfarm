@@ -11,14 +11,17 @@
   </head>
 
   <body class="<%= page_classes %>">
+
   <ul class="navbar">
-    <%= nav_link 'Home', 'index.html' %>
-    <%= nav_link 'Join', 'join.html' %>
-    <%= nav_link 'WWOOF', 'wwoof.html' %>
-    <%= nav_link 'FAQ', 'faq.html' %>
-    <%= nav_link 'Photos', 'photos.html' %>
-    <%= nav_link 'About', 'about.html' %>
+    <%= nav_link 'Home', '/' %>
+    <%= nav_link 'Join', 'join' %>
+    <%= nav_link 'WWOOF', 'wwoof' %>
+    <%= nav_link 'FAQ', 'faq' %>
+    <%= nav_link 'Photos', 'photos' %>
+    <%= nav_link 'About', 'about' %>
   </ul>
+
     <%= yield %>
+
   </body>
 </html>
