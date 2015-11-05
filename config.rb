@@ -52,13 +52,11 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 activate :directory_indexes
-set :relative_links, true
 
 # Build-specific configuration
 configure :build do
   activate :minify_css
   activate :relative_assets
-  set :http_prefix, "/hhfarm/"
   # activate :minify_javascript
   # activate :asset_hash
 end
