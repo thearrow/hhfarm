@@ -1,11 +1,15 @@
 language: ruby
 
+cache: bundler
+
 rvm:
-  - 2.2.3
+  - ruby
 
 branches:
   only:
     - master
+
+before_script: bundle update
 
 script:
   - "bundle exec middleman deploy"
