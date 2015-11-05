@@ -38,11 +38,13 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def nav_link name, url
-    current_path = "/#{request.path.chomp '/index.html'}"
-    class_name = current_path == url ? ' class="active"' : ''
-    if current_path == '/index.html' and url == '/' then class_name = ' class="active"' end
-    "<li#{class_name}>#{ link_to name, url }</li>"
+  def nav_link text, url, options = {}
+    options[:class] ||= ""
+    if url == "/#{request.path.chomp '/index.html'}" or
+       (url == "/" and request.path == "index.html")
+      options[:class] << " active"
+    end
+    link_to text, url, options
   end
 end
 
