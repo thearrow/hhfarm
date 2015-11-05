@@ -1,7 +1,5 @@
 language: ruby
 
-cache: bundler
-
 rvm:
   - 2.2.3
 
@@ -9,7 +7,9 @@ branches:
   only:
     - master
 
-before_script: bundle update
-
 script:
+  - "echo ${GH_TOKEN} > ./.git/credentials"
+  - "git config --global user.name Travis"
+  - "git config --global user.email travis@travis-ci.org"
+  - "git remote set-url origin \"https://${GH_TOKEN}@github.com/thearrow/hhfarm.git\""
   - "bundle exec middleman deploy"
