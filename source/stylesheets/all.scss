@@ -4,18 +4,24 @@ $orange: #F2AE72;
 $yellow: #F2E394;
 $green: #588C7E;
 $gray: #777;
+$lightgray: #eee;
 
 html {
   font-size: 16px;
 }
 
-.header {
-  color: $lightred;
-  font-family: 'Arvo', serif;
-  font-size: 2.5rem;
-  letter-spacing: 0.25rem;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 0px;
+header {
+  a {
+    text-decoration: none;
+    color: $lightred;
+  }
+  h1 {
+    font-family: 'Arvo', serif;
+    font-size: 2.5rem;
+    letter-spacing: 0.25rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 0px;
+  }
 }
 
 p, a {
@@ -24,7 +30,7 @@ p, a {
 
 .navbar {
   text-align: center;
-  background-color: #eee;
+  background-color: $lightgray;
   padding: 10px;
   margin: 40px auto;
 
@@ -40,7 +46,29 @@ p, a {
 }
 
 .content {
-  width: 80vw;
+  width: 70vw;
   margin: auto;
-  text-align: center;
+
+  h3 {
+    color: $gray;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: $lightgray;
+  color: $gray;
+  font-size: .8rem;
+  margin-top: 40px;
+  padding: 10px;
+
+  a {
+    color: $green;
+  }
+
+  div {
+    margin: 0 auto;
+    text-align: center;
+    width: 60vw;
+  }
 }
