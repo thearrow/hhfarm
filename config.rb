@@ -56,7 +56,7 @@ set :relative_links, true
 configure :build do
   activate :minify_css
   activate :relative_assets
-  set :http_prefix, "/hhfarm"
+  set :http_prefix, "/hhfarm/"
   # activate :minify_javascript
   # activate :asset_hash
 end
