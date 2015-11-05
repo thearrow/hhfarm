@@ -1,0 +1,3 @@
+prose:
+  rooturl: 'source/data'
+  media: 'media'
