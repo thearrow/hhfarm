@@ -14,11 +14,11 @@ header {
   a {
     text-decoration: none;
     color: $lightred;
+    font-family: 'Arvo', serif;
   }
   h1 {
-    font-family: 'Arvo', serif;
     font-size: 2.5rem;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.2rem;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 0px;
   }
@@ -31,13 +31,14 @@ p, a {
 .navbar {
   text-align: center;
   background-color: $lightgray;
-  padding: 10px;
-  margin: 40px auto;
+  padding: 20px;
+  margin: 30px auto;
 
   a {
     color: $gray;
     margin: 20px;
     text-decoration: none;
+    text-transform: uppercase;
 
     &.active {
       color: $lightred;
@@ -52,6 +53,30 @@ p, a {
   h3 {
     color: $gray;
     text-align: center;
+    margin: 20px;
+  }
+
+  a {
+    color: $green;
+  }
+
+  p {
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: $gray;
+  }
+
+  img {
+    margin: 40px auto;
+    display: block;
+    max-width: 60vw;
+  }
+
+  blockquote p{
+    font-size: 1.35rem;
+    color: $gray;
+    text-align: center;
   }
 }
 
@@ -60,13 +85,13 @@ footer {
   color: $gray;
   font-size: .8rem;
   margin-top: 40px;
-  padding: 10px;
+  padding: 20px;
 
   a {
     color: $green;
   }
 
-  div {
+  p {
     margin: 0 auto;
     text-align: center;
     width: 60vw;
