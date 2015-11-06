@@ -13,6 +13,8 @@ Weekly deliveries include: tomatoes, onions, peppers (spicy and Bell), radishes,
 
 All produce and deliveries are included for a **Seasonal Fee of $425 for a large share and small shares for $325**. Full shares are designed to provide produce needs for one family of four for one week. Payments can be made in flexible installments.
 
+![Example CSA Box](/images/csabox.JPG)
+
 <br/>
 **Option 2: Working Membership**
 
@@ -22,4 +24,6 @@ Check out our 'Project' section for more information about what type of tasks yo
 
 We require 4 hours of work per week in exchange for a weekly installment of veggies, herbs and flowers (just as for other members). Exact days and times are flexible and can fit your schedule. Working Member season typically begins in early-mid June, and lasts until early September (with some variation due to weather conditions).
 
-Please don't hesitate to contact us today for further information. We look forward to hearing from you and sewing together our local community through farm and garden. **HarvestHouseFarm@gmail.com or call us at 406-763-4464**
+Please don't hesitate to contact us today for further information. We look forward to hearing from you and sewing together our local community through farm and garden. **[HarvestHouseFarm@gmail.com](mailto:HarvestHouseFarm@gmail.com) or call us at [406-763-4464](tel:406-763-4464)**
+
+![CSA Workers](/images/csawork.jpg)
