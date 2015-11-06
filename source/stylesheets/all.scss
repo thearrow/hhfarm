@@ -4,21 +4,30 @@ $orange: #F2AE72;
 $yellow: #F2E394;
 $green: #588C7E;
 $gray: #777;
-$lightgray: #eee;
+$lightgray: #F7F7F7;
 
 html {
   font-size: 16px;
 }
 
 header {
+  background-image: url("/images/sunflowers.jpeg");
+  background-position: 50% 40%;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 300px;
+  padding-top: 2.5rem;
+
   a {
     text-decoration: none;
     color: $lightred;
     font-family: 'Arvo', serif;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 0.2rem;
+    margin: 0;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 0px;
   }
@@ -30,9 +39,10 @@ p, a {
 
 .navbar {
   text-align: center;
-  background-color: $lightgray;
+  background-color: transparentize($lightgray, .1);
   padding: 20px;
-  margin: 30px auto;
+  margin: 0 auto;
+  margin-top: -60px;
 
   a {
     color: $gray;
@@ -47,8 +57,9 @@ p, a {
 }
 
 .content {
-  width: 70vw;
   margin: auto;
+  padding-top: 15px;
+  width: 70vw;
 
   h3 {
     color: $gray;
@@ -61,15 +72,17 @@ p, a {
   }
 
   p {
-    line-height: 1.5rem;
-    font-weight: 300;
-    font-size: 1.1rem;
     color: $gray;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
   }
 
   img {
-    margin: 40px auto;
+    border: #eee solid 5px;
+    box-sizing: border-box;
     display: block;
+    margin: 40px auto;
     max-width: 60vw;
   }
 
