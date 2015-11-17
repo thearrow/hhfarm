@@ -6,3 +6,5 @@ title: Harvest House Farm - Bozeman, MT
 
 <br/>
 Harvest House Farm is located southwest of Bozeman. We’re here to provide individuals, families, restaurants and businesses with fresh, locally grown, pesticide-free produce. 
+
+![Field at the farm](/images/farm.jpg)
