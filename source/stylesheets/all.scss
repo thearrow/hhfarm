@@ -6,8 +6,8 @@ $green: #588C7E;
 $gray: #777;
 $lightgray: #F7F7F7;
 
-$med: "only screen and (max-width: 960px)";
-$small: "only screen and (max-width: 536px)";
+$med: "screen and (max-width: 960px), screen and (max-device-width: 1024px)";
+$small: "screen and (max-width: 536px), screen and (max-device-width: 736px)";
 
 
 html {
