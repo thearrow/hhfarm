@@ -6,6 +6,10 @@ $green: #588C7E;
 $gray: #777;
 $lightgray: #F7F7F7;
 
+$med: "only screen and (max-width: 960px)";
+$small: "only screen and (max-width: 536px)";
+
+
 html {
   font-size: 16px;
 }
@@ -30,6 +34,14 @@ header {
     margin: 0;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 0px;
+
+    @media #{$med} {
+      font-size: 2.5rem;
+    }
+
+    @media #{$small} {
+      font-size: 2rem;
+    }
   }
 }
 
@@ -40,18 +52,32 @@ p, a {
 .navbar {
   text-align: center;
   background-color: transparentize($lightgray, .1);
-  padding: 20px;
   margin: 0 auto;
   margin-top: -60px;
+  height: 60px;
+
+  @media #{$small} {
+    background-color: $lightgray;
+    height: auto;
+    padding: 5px;
+  }
 
   a {
     color: $gray;
-    margin: 20px;
+    display: inline-block;
+    height: 40px;
+    margin: auto 20px;
+    padding-top: 20px;
     text-decoration: none;
     text-transform: uppercase;
 
     &.active {
       color: $lightred;
+    }
+
+    @media #{$small} {
+      display: block;
+      margin: 0;
     }
   }
 }
@@ -60,6 +86,14 @@ p, a {
   margin: auto;
   padding-top: 15px;
   width: 60vw;
+
+  @media #{$med} {
+    width: 80vw;
+  }
+
+  @media #{$small} {
+    width: 90vw;
+  }
 
   h3 {
     color: $gray;
@@ -85,6 +119,14 @@ p, a {
     display: block;
     margin: 40px auto;
     max-width: 50vw;
+
+    @media #{$med} {
+      max-width: 70vw;
+    }
+
+    @media #{$small} {
+      max-width: 80vw;
+    }
   }
 
   blockquote p{
